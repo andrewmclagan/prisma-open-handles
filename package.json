@@ -4,7 +4,7 @@
   "scripts": {
     "start": "node dist/server",
     "dev": "ts-node-dev --no-notify --respawn --transpile-only src/server",
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "dependencies": {
     "@prisma/client": "4.11.0",
